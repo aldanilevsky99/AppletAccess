@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: APPLETACCESS - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/res.res" /d "NDEBUG" "C:\Coding\cpp\AppletAccess\res.rc"" 
+Creating temporary file "C:\Users\alex\AppData\Local\Temp\RSP528B.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/APPLETACCESS.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Coding\cpp\AppletAccess\APPLETACCESS.cpp"
+]
+Creating command line "cl.exe @C:\Users\alex\AppData\Local\Temp\RSP528B.tmp" 
+Creating temporary file "C:\Users\alex\AppData\Local\Temp\RSP529C.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/APPLETACCESS.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Coding\cpp\AppletAccess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\alex\AppData\Local\Temp\RSP529C.tmp" 
+Creating temporary file "C:\Users\alex\AppData\Local\Temp\RSP529D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/APPLETACCESS.pdb" /machine:I386 /out:"Release/APPLETACCESS.exe" 
+.\Release\APPLETACCESS.obj
+.\Release\StdAfx.obj
+.\Release\res.res
+]
+Creating command line "link.exe @C:\Users\alex\AppData\Local\Temp\RSP529D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+APPLETACCESS.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+APPLETACCESS.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: APPLETACCESS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+APPLETACCESS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
