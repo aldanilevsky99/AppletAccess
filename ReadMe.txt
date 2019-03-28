@@ -1,35 +1,14 @@
 ========================================================================
-       WIN32 APPLICATION : APPLETACCESS
+         : APPLETACCESS 
 ========================================================================
 
 
-AppWizard has created this APPLETACCESS application for you.  
-
-This file contains a summary of what you will find in each of the files that
-make up your APPLETACCESS application.
-
-APPLETACCESS.cpp
-    This is the main application source file.
-
-APPLETACCESS.dsp
-    This file (the project file) contains information at the project level and
-    is used to build a single project or subproject. Other users can share the
-    project (.dsp) file, but they should export the makefiles locally.
-	
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named APPLETACCESS.pch and a precompiled types file named StdAfx.obj.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
-
-
+////////////////////////////////////////////////////////////////////////////////
+// APPLETACCESS - For simplifications to run Java applets.
+// Date:	- 19.03.2019
+// Author:	- www.github.ru/aldanilevsky99 
+// IDE:		- Microsoft Visual Studio 6 
+////////////////////////////////////////////////////////////////////////////////
+// TODO: 1.Shell Extension
+//		 2.Check if record is present in config 
 /////////////////////////////////////////////////////////////////////////////
